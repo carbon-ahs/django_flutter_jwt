@@ -2,3 +2,8 @@ py -m venv venv
 source venv/Scripts/activate
 pip install django
 django-admin startproject core .
+py manage.py startapp base
+
+pip install djangorestfreamwork
+pip install djangorestframework-simplejwt
+pip freeze > requirments.txt
