@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:jwt/presentation/screens/login_screen.dart';
+import 'package:jwt/presentation/screens/test_screen.dart';
 
 import 'presentation/screens/home_screen.dart';
 
@@ -37,7 +38,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: LoginScreen(),
-      home: HomeScreen(),
+      // home: HomeScreen(),
+      home: TestScreen(),
     );
   }
 }
